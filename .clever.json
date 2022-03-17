@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "app_id": "app_dd642d48-ca0a-4b3b-9c9a-dc1722872a33",
+      "org_id": "user_f02c1f56-27bb-4927-a60a-9921a2554e82",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_dd642d48-ca0a-4b3b-9c9a-dc1722872a33.git",
+      "name": "test-gga-java17",
+      "alias": "test-gga-java17"
+    }
+  ]
+}
