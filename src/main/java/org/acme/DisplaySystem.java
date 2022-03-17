@@ -5,8 +5,6 @@ import org.jboss.logging.Logger;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.event.Observes;
-import java.util.Enumeration;
-import java.util.Properties;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @ApplicationScoped
@@ -15,7 +13,6 @@ public class DisplaySystem {
 
     void onStart(@Observes StartupEvent ev) {
         LOGGER.info("The application is starting...");
-        StringBuilder sb = new StringBuilder();
         AtomicInteger len = new AtomicInteger();
         System.getProperties()
                 .entrySet()
