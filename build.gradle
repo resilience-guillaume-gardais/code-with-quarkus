@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'io.quarkus'
+    id 'pl.allegro.tech.build.axion-release' version '1.14.0'
 }
 
 repositories {
@@ -17,7 +18,7 @@ dependencies {
 }
 
 group 'org.acme'
-version '1.0.0-SNAPSHOT'
+project.version = scmVersion.version
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
